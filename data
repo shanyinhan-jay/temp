@@ -6,191 +6,104 @@ Sending read history request: {
   "deviceType": "PIR_Sensor"
 } ui.html:45:25
 Device history response received: 
-Object { type: "device_history_response", status: "success", deviceMac: "C8:2B:96:40:DD:32", deviceName: "ShufangPIR", data: '# Device Info: name=ShufangPIR, mac=C8:2B:96:40:DD:32, nodeId=2520833330, type=PIR_Sensor\n# Format: timestamp: device_status_data\n# Timestamp format: YYYY-MM-DD HH:MM:SS\n2025-10-11 07:55:17 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 07:56:12 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 08:18:46 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 08:41:16 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 09:03:48 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 09:26:20 {"payload":{"states":["off"],"battery":3.69}}\n2025-10-11 09:33:38 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 09:39:22 {"payload":{"states":["off"],"battery":3.69}}\n2025-10-11 09:40:52 {"payload":{"states":["on"],"battery":3.69}}\n2025-10-11 09:47:11 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 09:47:37 {"payload":{"states":["on"],"battery":3.69}}\n2025-10-11 09:48:57 {"payload":{"states":["off"],"battery":3.69}}\n2025-10-11 09:49:01 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 10:00:35 {"payload":{"states":["off"],"battery":3.69}}\n2025-10-11 10:01:38 {"payload":{"states":["on"],"battery":3.69}}\n2025-10-11 10:05:31 {"payload":{"states":["off"],"battery":3.69}}\n2025-10-11 10:05:57 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 10:08:30 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 10:08:37 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 10:12:15 {"payload":{"states":["off"],"battery":3.69}}\n2025-10-11 10:12:44 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 10:19:19 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 10:19:28 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 10:23:09 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 10:23:15 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 10:29:28 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 10:29:41 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 10:40:27 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 10:41:02 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 10:46:16 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 10:46:36 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:00:48 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 11:00:58 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:02:24 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 11:04:13 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:20:13 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 11:22:37 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:23:50 {"payload":{"states":["off"],"battery":3.69}}\n2025-10-11 11:24:20 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:25:31 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 11:27:27 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:29:18 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 11:31:50 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:33:04 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 11:33:24 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:35:02 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 11:37:12 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:38:17 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 11:43:39 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:46:02 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:00:06 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:01:04 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:01:07 {"payload":{"states":["on"],"battery":3.68}}\n' }
+Object { type: "device_history_response", status: "success", deviceMac: "C8:2B:96:40:DD:32", deviceName: "ShufangPIR", data: '# Device Info: name=ShufangPIR, mac=C8:2B:96:40:DD:32, nodeId=2520833330, type=PIR_Sensor\n# Format: timestamp: device_status_data\n# Timestamp format: YYYY-MM-DD HH:MM:SS\n2025-10-11 12:22:27 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:22:32 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:24:00 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:24:47 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:31:59 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:32:06 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:34:17 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:34:57 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:37:55 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:38:15 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:43:33 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:43:40 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:46:34 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:46:41 {"payload":{"states":["on"],"battery":3.68}}\n' }
 ui.html:6393:21
 Received device history data: 
-Object { type: "device_history_response", status: "success", deviceMac: "C8:2B:96:40:DD:32", deviceName: "ShufangPIR", data: '# Device Info: name=ShufangPIR, mac=C8:2B:96:40:DD:32, nodeId=2520833330, type=PIR_Sensor\n# Format: timestamp: device_status_data\n# Timestamp format: YYYY-MM-DD HH:MM:SS\n2025-10-11 07:55:17 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 07:56:12 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 08:18:46 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 08:41:16 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 09:03:48 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 09:26:20 {"payload":{"states":["off"],"battery":3.69}}\n2025-10-11 09:33:38 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 09:39:22 {"payload":{"states":["off"],"battery":3.69}}\n2025-10-11 09:40:52 {"payload":{"states":["on"],"battery":3.69}}\n2025-10-11 09:47:11 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 09:47:37 {"payload":{"states":["on"],"battery":3.69}}\n2025-10-11 09:48:57 {"payload":{"states":["off"],"battery":3.69}}\n2025-10-11 09:49:01 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 10:00:35 {"payload":{"states":["off"],"battery":3.69}}\n2025-10-11 10:01:38 {"payload":{"states":["on"],"battery":3.69}}\n2025-10-11 10:05:31 {"payload":{"states":["off"],"battery":3.69}}\n2025-10-11 10:05:57 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 10:08:30 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 10:08:37 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 10:12:15 {"payload":{"states":["off"],"battery":3.69}}\n2025-10-11 10:12:44 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 10:19:19 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 10:19:28 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 10:23:09 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 10:23:15 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 10:29:28 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 10:29:41 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 10:40:27 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 10:41:02 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 10:46:16 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 10:46:36 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:00:48 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 11:00:58 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:02:24 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 11:04:13 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:20:13 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 11:22:37 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:23:50 {"payload":{"states":["off"],"battery":3.69}}\n2025-10-11 11:24:20 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:25:31 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 11:27:27 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:29:18 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 11:31:50 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:33:04 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 11:33:24 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:35:02 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 11:37:12 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:38:17 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 11:43:39 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 11:46:02 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:00:06 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:01:04 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:01:07 {"payload":{"states":["on"],"battery":3.68}}\n' }
+Object { type: "device_history_response", status: "success", deviceMac: "C8:2B:96:40:DD:32", deviceName: "ShufangPIR", data: '# Device Info: name=ShufangPIR, mac=C8:2B:96:40:DD:32, nodeId=2520833330, type=PIR_Sensor\n# Format: timestamp: device_status_data\n# Timestamp format: YYYY-MM-DD HH:MM:SS\n2025-10-11 12:22:27 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:22:32 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:24:00 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:24:47 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:31:59 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:32:06 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:34:17 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:34:57 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:37:55 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:38:15 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:43:33 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:43:40 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:46:34 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:46:41 {"payload":{"states":["on"],"battery":3.68}}\n' }
 ui.html:104:21
-Timeline segments: 
-Array(49) [ {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, … ]
-ui.html:218:25
-Device type: PIR_Sensor ui.html:219:25
-updateTimelineWithSegments called with: 
-Array(49) [ {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, … ]
- PIR_Sensor ui.html:12515:21
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 07:55:17 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 07:56:12 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 07:56:12 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 09:33:38 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 09:33:38 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 09:39:22 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 09:39:22 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 09:40:52 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 09:40:52 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 09:47:11 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 09:47:11 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 09:47:37 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 09:47:37 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 09:48:57 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 09:48:57 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 09:49:01 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 09:49:01 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:00:35 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:00:35 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:01:38 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:01:38 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:05:31 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:05:31 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:05:57 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:05:57 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:08:30 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:08:30 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:08:37 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:08:37 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:12:15 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:12:15 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:12:44 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:12:44 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:19:19 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:19:19 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:19:28 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:19:28 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:23:09 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:23:09 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:23:15 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:23:15 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:29:28 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:29:28 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:29:41 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:29:41 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:40:27 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:40:27 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:41:02 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:41:02 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:46:16 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:46:16 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 10:46:36 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 10:46:36 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:00:48 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:00:48 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:00:58 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:00:58 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:02:24 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:02:24 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:04:13 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:04:13 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:20:13 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:20:13 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:22:37 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:22:37 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:23:50 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:23:50 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:24:20 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:24:20 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:25:31 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:25:31 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:27:27 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:27:27 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:29:18 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:29:18 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:31:50 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:31:50 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:33:04 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:33:04 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:33:24 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:33:24 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:35:02 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:35:02 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:37:12 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:37:12 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:38:17 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:38:17 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:43:39 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:43:39 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 11:46:02 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 11:46:02 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 12:00:06 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 12:00:06 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 12:01:04 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 12:01:04 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 12:01:07 GMT+0800 (中国标准时间), status: "clear" }
- Device type: PIR_Sensor ui.html:12546:25
-Processing segment: 
-Object { start: Date Sat Oct 11 2025 12:01:07 GMT+0800 (中国标准时间), end: Date Sat Oct 11 2025 12:01:29 GMT+0800 (中国标准时间), status: "detected" }
- Device type: PIR_Sensor ui.html:12546:25
-Added motion class for detected motion ui.html:12559:33
-updateTimelineWithSegments called with: 
-Array []
- PIR_Sensor ui.html:12515:21
-No timeline segments, keeping gray background ui.html:12522:25
+Extracted deviceType from history data: PIR_Sensor ui.html:115:21
+Generated timelineSegments: 
+Array(14) [ {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, … ]
+ui.html:220:25
+updateTimelineWithSegments called with: 14 segments, deviceType: PIR_Sensor ui.html:12506:21
+Segment: clear start: 12:22:27 end: 12:22:32 ui.html:12533:25
+Start offset: 44547000 ms, duration: 5000 ms ui.html:12534:25
+Position: 51.55902777777778 %, width: 0.005787037037037038 % ui.html:12535:25
+Final width after min-width adjustment: 0.5 % ui.html:12544:25
+Processing segment: clear deviceType: PIR_Sensor ui.html:12550:25
+Added segment to timeline: timeline-segment width: 0.5% ui.html:12586:25
+Segment: detected start: 12:22:32 end: 12:24:00 ui.html:12533:25
+Start offset: 44552000 ms, duration: 88000 ms ui.html:12534:25
+Position: 51.56481481481482 %, width: 0.10185185185185185 % ui.html:12535:25
+Final width after min-width adjustment: 0.5 % ui.html:12544:25
+Processing segment: detected deviceType: PIR_Sensor ui.html:12550:25
+Added motion class for detected PIR_Sensor ui.html:12560:33
+Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12586:25
+Segment: clear start: 12:24:00 end: 12:24:47 ui.html:12533:25
+Start offset: 44640000 ms, duration: 47000 ms ui.html:12534:25
+Position: 51.66666666666667 %, width: 0.05439814814814815 % ui.html:12535:25
+Final width after min-width adjustment: 0.5 % ui.html:12544:25
+Processing segment: clear deviceType: PIR_Sensor ui.html:12550:25
+Added segment to timeline: timeline-segment width: 0.5% ui.html:12586:25
+Segment: detected start: 12:24:47 end: 12:31:59 ui.html:12533:25
+Start offset: 44687000 ms, duration: 432000 ms ui.html:12534:25
+Position: 51.72106481481481 %, width: 0.5 % ui.html:12535:25
+Final width after min-width adjustment: 0.5 % ui.html:12544:25
+Processing segment: detected deviceType: PIR_Sensor ui.html:12550:25
+Added motion class for detected PIR_Sensor ui.html:12560:33
+Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12586:25
+Segment: clear start: 12:31:59 end: 12:32:06 ui.html:12533:25
+Start offset: 45119000 ms, duration: 7000 ms ui.html:12534:25
+Position: 52.22106481481481 %, width: 0.008101851851851851 % ui.html:12535:25
+Final width after min-width adjustment: 0.5 % ui.html:12544:25
+Processing segment: clear deviceType: PIR_Sensor ui.html:12550:25
+Added segment to timeline: timeline-segment width: 0.5% ui.html:12586:25
+Segment: detected start: 12:32:06 end: 12:34:17 ui.html:12533:25
+Start offset: 45126000 ms, duration: 131000 ms ui.html:12534:25
+Position: 52.22916666666667 %, width: 0.15162037037037035 % ui.html:12535:25
+Final width after min-width adjustment: 0.5 % ui.html:12544:25
+Processing segment: detected deviceType: PIR_Sensor ui.html:12550:25
+Added motion class for detected PIR_Sensor ui.html:12560:33
+Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12586:25
+Segment: clear start: 12:34:17 end: 12:34:57 ui.html:12533:25
+Start offset: 45257000 ms, duration: 40000 ms ui.html:12534:25
+Position: 52.38078703703704 %, width: 0.0462962962962963 % ui.html:12535:25
+Final width after min-width adjustment: 0.5 % ui.html:12544:25
+Processing segment: clear deviceType: PIR_Sensor ui.html:12550:25
+Added segment to timeline: timeline-segment width: 0.5% ui.html:12586:25
+Segment: detected start: 12:34:57 end: 12:37:55 ui.html:12533:25
+Start offset: 45297000 ms, duration: 178000 ms ui.html:12534:25
+Position: 52.427083333333336 %, width: 0.20601851851851852 % ui.html:12535:25
+Final width after min-width adjustment: 0.5 % ui.html:12544:25
+Processing segment: detected deviceType: PIR_Sensor ui.html:12550:25
+Added motion class for detected PIR_Sensor ui.html:12560:33
+Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12586:25
+Segment: clear start: 12:37:55 end: 12:38:15 ui.html:12533:25
+Start offset: 45475000 ms, duration: 20000 ms ui.html:12534:25
+Position: 52.63310185185185 %, width: 0.02314814814814815 % ui.html:12535:25
+Final width after min-width adjustment: 0.5 % ui.html:12544:25
+Processing segment: clear deviceType: PIR_Sensor ui.html:12550:25
+Added segment to timeline: timeline-segment width: 0.5% ui.html:12586:25
+Segment: detected start: 12:38:15 end: 12:43:33 ui.html:12533:25
+Start offset: 45495000 ms, duration: 318000 ms ui.html:12534:25
+Position: 52.65625000000001 %, width: 0.3680555555555555 % ui.html:12535:25
+Final width after min-width adjustment: 0.5 % ui.html:12544:25
+Processing segment: detected deviceType: PIR_Sensor ui.html:12550:25
+Added motion class for detected PIR_Sensor ui.html:12560:33
+Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12586:25
+Segment: clear start: 12:43:33 end: 12:43:40 ui.html:12533:25
+Start offset: 45813000 ms, duration: 7000 ms ui.html:12534:25
+Position: 53.02430555555555 %, width: 0.008101851851851851 % ui.html:12535:25
+Final width after min-width adjustment: 0.5 % ui.html:12544:25
+Processing segment: clear deviceType: PIR_Sensor ui.html:12550:25
+Added segment to timeline: timeline-segment width: 0.5% ui.html:12586:25
+Segment: detected start: 12:43:40 end: 12:46:34 ui.html:12533:25
+Start offset: 45820000 ms, duration: 174000 ms ui.html:12534:25
+Position: 53.03240740740741 %, width: 0.2013888888888889 % ui.html:12535:25
+Final width after min-width adjustment: 0.5 % ui.html:12544:25
+Processing segment: detected deviceType: PIR_Sensor ui.html:12550:25
+Added motion class for detected PIR_Sensor ui.html:12560:33
+Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12586:25
+Segment: clear start: 12:46:34 end: 12:46:41 ui.html:12533:25
+Start offset: 45994000 ms, duration: 7000 ms ui.html:12534:25
+Position: 53.2337962962963 %, width: 0.008101851851851851 % ui.html:12535:25
+Final width after min-width adjustment: 0.5 % ui.html:12544:25
+Processing segment: clear deviceType: PIR_Sensor ui.html:12550:25
+Added segment to timeline: timeline-segment width: 0.5% ui.html:12586:25
+Segment: detected start: 12:46:41 end: 12:47:02 ui.html:12533:25
+Start offset: 46001000 ms, duration: 21601 ms ui.html:12534:25
+Position: 53.241898148148145 %, width: 0.02500115740740741 % ui.html:12535:25
+Final width after min-width adjustment: 0.5 % ui.html:12544:25
+Processing segment: detected deviceType: PIR_Sensor ui.html:12550:25
+Added motion class for detected PIR_Sensor ui.html:12560:33
+Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12586:25
