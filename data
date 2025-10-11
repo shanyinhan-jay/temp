@@ -1,4 +1,4 @@
-Action: readHistory for device: C8:2B:96:40:DD:32 ui.html:6698:21
+Action: readHistory for device: C8:2B:96:40:DD:32 ui.html:6703:21
 Reading history for PIR_Sensor device: C8:2B:96:40:DD:32 ui.html:32:21
 Sending read history request: {
   "type": "read_device_history",
@@ -6,104 +6,253 @@ Sending read history request: {
   "deviceType": "PIR_Sensor"
 } ui.html:45:25
 Device history response received: 
-Object { type: "device_history_response", status: "success", deviceMac: "C8:2B:96:40:DD:32", deviceName: "ShufangPIR", data: '# Device Info: name=ShufangPIR, mac=C8:2B:96:40:DD:32, nodeId=2520833330, type=PIR_Sensor\n# Format: timestamp: device_status_data\n# Timestamp format: YYYY-MM-DD HH:MM:SS\n2025-10-11 12:22:27 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:22:32 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:24:00 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:24:47 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:31:59 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:32:06 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:34:17 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:34:57 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:37:55 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:38:15 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:43:33 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:43:40 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:46:34 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:46:41 {"payload":{"states":["on"],"battery":3.68}}\n' }
-ui.html:6393:21
+Object { type: "device_history_response", status: "success", deviceMac: "C8:2B:96:40:DD:32", deviceName: "ShufangPIR", data: '# Device Info: name=ShufangPIR, mac=C8:2B:96:40:DD:32, nodeId=2520833330, type=PIR_Sensor\n# Format: timestamp: device_status_data\n# Timestamp format: YYYY-MM-DD HH:MM:SS\n2025-10-11 12:22:27 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:22:32 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:24:00 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:24:47 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:31:59 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:32:06 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:34:17 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:34:57 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:37:55 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:38:15 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:43:33 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:43:40 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:46:34 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:46:41 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:50:16 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:50:40 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:52:04 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:52:10 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:53:11 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:53:25 {"payload":{"states":["on"],"battery":3.68}}\n' }
+ui.html:6398:21
+=== DEVICE HISTORY DEBUG START === ui.html:104:21
 Received device history data: 
-Object { type: "device_history_response", status: "success", deviceMac: "C8:2B:96:40:DD:32", deviceName: "ShufangPIR", data: '# Device Info: name=ShufangPIR, mac=C8:2B:96:40:DD:32, nodeId=2520833330, type=PIR_Sensor\n# Format: timestamp: device_status_data\n# Timestamp format: YYYY-MM-DD HH:MM:SS\n2025-10-11 12:22:27 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:22:32 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:24:00 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:24:47 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:31:59 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:32:06 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:34:17 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:34:57 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:37:55 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:38:15 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:43:33 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:43:40 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:46:34 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:46:41 {"payload":{"states":["on"],"battery":3.68}}\n' }
-ui.html:104:21
-Extracted deviceType from history data: PIR_Sensor ui.html:115:21
+Object { type: "device_history_response", status: "success", deviceMac: "C8:2B:96:40:DD:32", deviceName: "ShufangPIR", data: '# Device Info: name=ShufangPIR, mac=C8:2B:96:40:DD:32, nodeId=2520833330, type=PIR_Sensor\n# Format: timestamp: device_status_data\n# Timestamp format: YYYY-MM-DD HH:MM:SS\n2025-10-11 12:22:27 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:22:32 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:24:00 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:24:47 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:31:59 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:32:06 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:34:17 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:34:57 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:37:55 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:38:15 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:43:33 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:43:40 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:46:34 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:46:41 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:50:16 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:50:40 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:52:04 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:52:10 {"payload":{"states":["on"],"battery":3.68}}\n2025-10-11 12:53:11 {"payload":{"states":["off"],"battery":3.68}}\n2025-10-11 12:53:25 {"payload":{"states":["on"],"battery":3.68}}\n' }
+ui.html:105:21
+Raw data string: # Device Info: name=ShufangPIR, mac=C8:2B:96:40:DD:32, nodeId=2520833330, type=PIR_Sensor
+# Format: timestamp: device_status_data
+# Timestamp format: YYYY-MM-DD HH:MM:SS
+2025-10-11 12:22:27 {"payload":{"states":["off"],"battery":3.68}}
+2025-10-11 12:22:32 {"payload":{"states":["on"],"battery":3.68}}
+2025-10-11 12:24:00 {"payload":{"states":["off"],"battery":3.68}}
+2025-10-11 12:24:47 {"payload":{"states":["on"],"battery":3.68}}
+2025-10-11 12:31:59 {"payload":{"states":["off"],"battery":3.68}}
+2025-10-11 12:32:06 {"payload":{"states":["on"],"battery":3.68}}
+2025-10-11 12:34:17 {"payload":{"states":["off"],"battery":3.68}}
+2025-10-11 12:34:57 {"payload":{"states":["on"],"battery":3.68}}
+2025-10-11 12:37:55 {"payload":{"states":["off"],"battery":3.68}}
+2025-10-11 12:38:15 {"payload":{"states":["on"],"battery":3.68}}
+2025-10-11 12:43:33 {"payload":{"states":["off"],"battery":3.68}}
+2025-10-11 12:43:40 {"payload":{"states":["on"],"battery":3.68}}
+2025-10-11 12:46:34 {"payload":{"states":["off"],"battery":3.68}}
+2025-10-11 12:46:41 {"payload":{"states":["on"],"battery":3.68}}
+2025-10-11 12:50:16 {"payload":{"states":["off"],"battery":3.68}}
+2025-10-11 12:50:40 {"payload":{"states":["on"],"battery":3.68}}
+2025-10-11 12:52:04 {"payload":{"states":["off"],"battery":3.68}}
+2025-10-11 12:52:10 {"payload":{"states":["on"],"battery":3.68}}
+2025-10-11 12:53:11 {"payload":{"states":["off"],"battery":3.68}}
+2025-10-11 12:53:25 {"payload":{"states":["on"],"battery":3.68}}
+ui.html:110:25
+Found device type in data: PIR_Sensor ui.html:114:29
+Final deviceType for timeline: PIR_Sensor ui.html:120:21
 Generated timelineSegments: 
-Array(14) [ {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, … ]
-ui.html:220:25
-updateTimelineWithSegments called with: 14 segments, deviceType: PIR_Sensor ui.html:12506:21
-Segment: clear start: 12:22:27 end: 12:22:32 ui.html:12533:25
-Start offset: 44547000 ms, duration: 5000 ms ui.html:12534:25
-Position: 51.55902777777778 %, width: 0.005787037037037038 % ui.html:12535:25
-Final width after min-width adjustment: 0.5 % ui.html:12544:25
-Processing segment: clear deviceType: PIR_Sensor ui.html:12550:25
-Added segment to timeline: timeline-segment width: 0.5% ui.html:12586:25
-Segment: detected start: 12:22:32 end: 12:24:00 ui.html:12533:25
-Start offset: 44552000 ms, duration: 88000 ms ui.html:12534:25
-Position: 51.56481481481482 %, width: 0.10185185185185185 % ui.html:12535:25
-Final width after min-width adjustment: 0.5 % ui.html:12544:25
-Processing segment: detected deviceType: PIR_Sensor ui.html:12550:25
-Added motion class for detected PIR_Sensor ui.html:12560:33
-Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12586:25
-Segment: clear start: 12:24:00 end: 12:24:47 ui.html:12533:25
-Start offset: 44640000 ms, duration: 47000 ms ui.html:12534:25
-Position: 51.66666666666667 %, width: 0.05439814814814815 % ui.html:12535:25
-Final width after min-width adjustment: 0.5 % ui.html:12544:25
-Processing segment: clear deviceType: PIR_Sensor ui.html:12550:25
-Added segment to timeline: timeline-segment width: 0.5% ui.html:12586:25
-Segment: detected start: 12:24:47 end: 12:31:59 ui.html:12533:25
-Start offset: 44687000 ms, duration: 432000 ms ui.html:12534:25
-Position: 51.72106481481481 %, width: 0.5 % ui.html:12535:25
-Final width after min-width adjustment: 0.5 % ui.html:12544:25
-Processing segment: detected deviceType: PIR_Sensor ui.html:12550:25
-Added motion class for detected PIR_Sensor ui.html:12560:33
-Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12586:25
-Segment: clear start: 12:31:59 end: 12:32:06 ui.html:12533:25
-Start offset: 45119000 ms, duration: 7000 ms ui.html:12534:25
-Position: 52.22106481481481 %, width: 0.008101851851851851 % ui.html:12535:25
-Final width after min-width adjustment: 0.5 % ui.html:12544:25
-Processing segment: clear deviceType: PIR_Sensor ui.html:12550:25
-Added segment to timeline: timeline-segment width: 0.5% ui.html:12586:25
-Segment: detected start: 12:32:06 end: 12:34:17 ui.html:12533:25
-Start offset: 45126000 ms, duration: 131000 ms ui.html:12534:25
-Position: 52.22916666666667 %, width: 0.15162037037037035 % ui.html:12535:25
-Final width after min-width adjustment: 0.5 % ui.html:12544:25
-Processing segment: detected deviceType: PIR_Sensor ui.html:12550:25
-Added motion class for detected PIR_Sensor ui.html:12560:33
-Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12586:25
-Segment: clear start: 12:34:17 end: 12:34:57 ui.html:12533:25
-Start offset: 45257000 ms, duration: 40000 ms ui.html:12534:25
-Position: 52.38078703703704 %, width: 0.0462962962962963 % ui.html:12535:25
-Final width after min-width adjustment: 0.5 % ui.html:12544:25
-Processing segment: clear deviceType: PIR_Sensor ui.html:12550:25
-Added segment to timeline: timeline-segment width: 0.5% ui.html:12586:25
-Segment: detected start: 12:34:57 end: 12:37:55 ui.html:12533:25
-Start offset: 45297000 ms, duration: 178000 ms ui.html:12534:25
-Position: 52.427083333333336 %, width: 0.20601851851851852 % ui.html:12535:25
-Final width after min-width adjustment: 0.5 % ui.html:12544:25
-Processing segment: detected deviceType: PIR_Sensor ui.html:12550:25
-Added motion class for detected PIR_Sensor ui.html:12560:33
-Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12586:25
-Segment: clear start: 12:37:55 end: 12:38:15 ui.html:12533:25
-Start offset: 45475000 ms, duration: 20000 ms ui.html:12534:25
-Position: 52.63310185185185 %, width: 0.02314814814814815 % ui.html:12535:25
-Final width after min-width adjustment: 0.5 % ui.html:12544:25
-Processing segment: clear deviceType: PIR_Sensor ui.html:12550:25
-Added segment to timeline: timeline-segment width: 0.5% ui.html:12586:25
-Segment: detected start: 12:38:15 end: 12:43:33 ui.html:12533:25
-Start offset: 45495000 ms, duration: 318000 ms ui.html:12534:25
-Position: 52.65625000000001 %, width: 0.3680555555555555 % ui.html:12535:25
-Final width after min-width adjustment: 0.5 % ui.html:12544:25
-Processing segment: detected deviceType: PIR_Sensor ui.html:12550:25
-Added motion class for detected PIR_Sensor ui.html:12560:33
-Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12586:25
-Segment: clear start: 12:43:33 end: 12:43:40 ui.html:12533:25
-Start offset: 45813000 ms, duration: 7000 ms ui.html:12534:25
-Position: 53.02430555555555 %, width: 0.008101851851851851 % ui.html:12535:25
-Final width after min-width adjustment: 0.5 % ui.html:12544:25
-Processing segment: clear deviceType: PIR_Sensor ui.html:12550:25
-Added segment to timeline: timeline-segment width: 0.5% ui.html:12586:25
-Segment: detected start: 12:43:40 end: 12:46:34 ui.html:12533:25
-Start offset: 45820000 ms, duration: 174000 ms ui.html:12534:25
-Position: 53.03240740740741 %, width: 0.2013888888888889 % ui.html:12535:25
-Final width after min-width adjustment: 0.5 % ui.html:12544:25
-Processing segment: detected deviceType: PIR_Sensor ui.html:12550:25
-Added motion class for detected PIR_Sensor ui.html:12560:33
-Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12586:25
-Segment: clear start: 12:46:34 end: 12:46:41 ui.html:12533:25
-Start offset: 45994000 ms, duration: 7000 ms ui.html:12534:25
-Position: 53.2337962962963 %, width: 0.008101851851851851 % ui.html:12535:25
-Final width after min-width adjustment: 0.5 % ui.html:12544:25
-Processing segment: clear deviceType: PIR_Sensor ui.html:12550:25
-Added segment to timeline: timeline-segment width: 0.5% ui.html:12586:25
-Segment: detected start: 12:46:41 end: 12:47:02 ui.html:12533:25
-Start offset: 46001000 ms, duration: 21601 ms ui.html:12534:25
-Position: 53.241898148148145 %, width: 0.02500115740740741 % ui.html:12535:25
-Final width after min-width adjustment: 0.5 % ui.html:12544:25
-Processing segment: detected deviceType: PIR_Sensor ui.html:12550:25
-Added motion class for detected PIR_Sensor ui.html:12560:33
-Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12586:25
+Array(20) [ {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, … ]
+ui.html:225:25
+=== TIMELINE UPDATE DEBUG START === ui.html:12512:21
+updateTimelineWithSegments called with: 20 segments, deviceType: PIR_Sensor ui.html:12513:21
+All segments data: 
+Array(20) [ {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, … ]
+ui.html:12514:21
+Segment: clear start: 12:22:27 end: 12:22:32 ui.html:12542:25
+Start offset: 44547000 ms, duration: 5000 ms ui.html:12543:25
+Position: 51.55902777777778 %, width: 0.005787037037037038 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: clear deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Segment element classes after: timeline-segment ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment width: 0.5% ui.html:12601:25
+Segment: detected start: 12:22:32 end: 12:24:00 ui.html:12542:25
+Start offset: 44552000 ms, duration: 88000 ms ui.html:12543:25
+Position: 51.56481481481482 %, width: 0.10185185185185185 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: detected deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Added motion class for detected PIR_Sensor ui.html:12572:33
+Segment element classes after: timeline-segment motion ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12601:25
+Segment: clear start: 12:24:00 end: 12:24:47 ui.html:12542:25
+Start offset: 44640000 ms, duration: 47000 ms ui.html:12543:25
+Position: 51.66666666666667 %, width: 0.05439814814814815 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: clear deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Segment element classes after: timeline-segment ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment width: 0.5% ui.html:12601:25
+Segment: detected start: 12:24:47 end: 12:31:59 ui.html:12542:25
+Start offset: 44687000 ms, duration: 432000 ms ui.html:12543:25
+Position: 51.72106481481481 %, width: 0.5 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: detected deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Added motion class for detected PIR_Sensor ui.html:12572:33
+Segment element classes after: timeline-segment motion ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12601:25
+Segment: clear start: 12:31:59 end: 12:32:06 ui.html:12542:25
+Start offset: 45119000 ms, duration: 7000 ms ui.html:12543:25
+Position: 52.22106481481481 %, width: 0.008101851851851851 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: clear deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Segment element classes after: timeline-segment ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment width: 0.5% ui.html:12601:25
+Segment: detected start: 12:32:06 end: 12:34:17 ui.html:12542:25
+Start offset: 45126000 ms, duration: 131000 ms ui.html:12543:25
+Position: 52.22916666666667 %, width: 0.15162037037037035 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: detected deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Added motion class for detected PIR_Sensor ui.html:12572:33
+Segment element classes after: timeline-segment motion ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12601:25
+Segment: clear start: 12:34:17 end: 12:34:57 ui.html:12542:25
+Start offset: 45257000 ms, duration: 40000 ms ui.html:12543:25
+Position: 52.38078703703704 %, width: 0.0462962962962963 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: clear deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Segment element classes after: timeline-segment ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment width: 0.5% ui.html:12601:25
+Segment: detected start: 12:34:57 end: 12:37:55 ui.html:12542:25
+Start offset: 45297000 ms, duration: 178000 ms ui.html:12543:25
+Position: 52.427083333333336 %, width: 0.20601851851851852 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: detected deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Added motion class for detected PIR_Sensor ui.html:12572:33
+Segment element classes after: timeline-segment motion ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12601:25
+Segment: clear start: 12:37:55 end: 12:38:15 ui.html:12542:25
+Start offset: 45475000 ms, duration: 20000 ms ui.html:12543:25
+Position: 52.63310185185185 %, width: 0.02314814814814815 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: clear deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Segment element classes after: timeline-segment ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment width: 0.5% ui.html:12601:25
+Segment: detected start: 12:38:15 end: 12:43:33 ui.html:12542:25
+Start offset: 45495000 ms, duration: 318000 ms ui.html:12543:25
+Position: 52.65625000000001 %, width: 0.3680555555555555 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: detected deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Added motion class for detected PIR_Sensor ui.html:12572:33
+Segment element classes after: timeline-segment motion ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12601:25
+Segment: clear start: 12:43:33 end: 12:43:40 ui.html:12542:25
+Start offset: 45813000 ms, duration: 7000 ms ui.html:12543:25
+Position: 53.02430555555555 %, width: 0.008101851851851851 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: clear deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Segment element classes after: timeline-segment ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment width: 0.5% ui.html:12601:25
+Segment: detected start: 12:43:40 end: 12:46:34 ui.html:12542:25
+Start offset: 45820000 ms, duration: 174000 ms ui.html:12543:25
+Position: 53.03240740740741 %, width: 0.2013888888888889 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: detected deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Added motion class for detected PIR_Sensor ui.html:12572:33
+Segment element classes after: timeline-segment motion ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12601:25
+Segment: clear start: 12:46:34 end: 12:46:41 ui.html:12542:25
+Start offset: 45994000 ms, duration: 7000 ms ui.html:12543:25
+Position: 53.2337962962963 %, width: 0.008101851851851851 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: clear deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Segment element classes after: timeline-segment ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment width: 0.5% ui.html:12601:25
+Segment: detected start: 12:46:41 end: 12:50:16 ui.html:12542:25
+Start offset: 46001000 ms, duration: 215000 ms ui.html:12543:25
+Position: 53.241898148148145 %, width: 0.24884259259259262 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: detected deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Added motion class for detected PIR_Sensor ui.html:12572:33
+Segment element classes after: timeline-segment motion ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12601:25
+Segment: clear start: 12:50:16 end: 12:50:40 ui.html:12542:25
+Start offset: 46216000 ms, duration: 24000 ms ui.html:12543:25
+Position: 53.49074074074074 %, width: 0.027777777777777776 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: clear deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Segment element classes after: timeline-segment ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment width: 0.5% ui.html:12601:25
+Segment: detected start: 12:50:40 end: 12:52:04 ui.html:12542:25
+Start offset: 46240000 ms, duration: 84000 ms ui.html:12543:25
+Position: 53.51851851851852 %, width: 0.09722222222222222 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: detected deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Added motion class for detected PIR_Sensor ui.html:12572:33
+Segment element classes after: timeline-segment motion ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12601:25
+Segment: clear start: 12:52:04 end: 12:52:10 ui.html:12542:25
+Start offset: 46324000 ms, duration: 6000 ms ui.html:12543:25
+Position: 53.61574074074073 %, width: 0.006944444444444444 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: clear deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Segment element classes after: timeline-segment ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment width: 0.5% ui.html:12601:25
+Segment: detected start: 12:52:10 end: 12:53:11 ui.html:12542:25
+Start offset: 46330000 ms, duration: 61000 ms ui.html:12543:25
+Position: 53.62268518518518 %, width: 0.07060185185185185 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: detected deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Added motion class for detected PIR_Sensor ui.html:12572:33
+Segment element classes after: timeline-segment motion ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12601:25
+Segment: clear start: 12:53:11 end: 12:53:25 ui.html:12542:25
+Start offset: 46391000 ms, duration: 14000 ms ui.html:12543:25
+Position: 53.69328703703704 %, width: 0.016203703703703703 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: clear deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Segment element classes after: timeline-segment ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment width: 0.5% ui.html:12601:25
+Segment: detected start: 12:53:25 end: 12:54:09 ui.html:12542:25
+Start offset: 46405000 ms, duration: 44784 ms ui.html:12543:25
+Position: 53.70949074074074 %, width: 0.05183333333333333 % ui.html:12544:25
+Final width after min-width adjustment: 0.5 % ui.html:12553:25
+=== SEGMENT STYLING DEBUG === ui.html:12559:25
+Processing segment: detected deviceType: PIR_Sensor ui.html:12560:25
+Segment element classes before: timeline-segment ui.html:12561:25
+Added motion class for detected PIR_Sensor ui.html:12572:33
+Segment element classes after: timeline-segment motion ui.html:12577:25
+Segment element computed style background: <empty string> ui.html:12578:25
+Added segment to timeline: timeline-segment motion width: 0.5% ui.html:12601:25
